@@ -1,0 +1,29 @@
+/* ---------- Header Section ---------- */
+
+.section--header {
+  background-image: url(../img/banner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  color: $white;
+
+  .container__content {
+    padding-top: 20%;
+    h1 {
+      text-transform: uppercase;
+      font-size: 32px;
+      font-family: "Open Sans", sans-serif;
+      font-weight: 700;
+      margin-bottom: 15px;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.5;
+      font-weight: 300;
+      margin-bottom: 40px;
+    }
+  }
+
+}

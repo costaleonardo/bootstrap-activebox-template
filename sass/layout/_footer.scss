@@ -1,0 +1,19 @@
+/* ---------- Footer Section ---------- */
+
+.footer {
+  background-color: $navy-blue;
+  padding: 25px;
+
+  .footer__text {
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  a {
+    transition: all .3s;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: $red;
+  }
+}

@@ -1,0 +1,26 @@
+/* ---------- Buttons ---------- */
+
+.btn {
+  background-color: $red;
+  color: $white;
+  border-color: $red;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 15px 40px;
+  font-size: 13px;
+  transition: all .5s;
+}
+ 
+.btn:focus {
+  outline: none;
+}
+
+.btn--download {
+  background-color: $navy-blue;
+  border: 1px solid $navy-blue;
+}
+
+.btn:hover {
+  background-color: $navy-blue !important;
+  color: $red !important;
+}

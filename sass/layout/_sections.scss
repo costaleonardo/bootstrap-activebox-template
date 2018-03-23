@@ -1,0 +1,27 @@
+/* ---------- Sections ---------- */
+
+.section {
+  padding: 70px 0 70px 0;
+}
+
+.section__title {
+  text-align: center;
+  margin-bottom: 4em;
+  hr {
+    width: 25%;
+    background-color: $red;
+    height: 2px;
+  }
+}
+
+.section__image {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .section__title {
+    hr {
+      width: 10%;
+    }
+  }
+}

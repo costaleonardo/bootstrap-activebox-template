@@ -1,0 +1,39 @@
+/* ---------- Team Section ---------- */
+
+.section--team {
+  .section__image {
+    margin-bottom: 15px;
+  }
+
+  h5 {
+    color: $red;
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+
+  p {
+    margin-bottom: 25px;
+  }
+
+  .section__item {
+    margin-bottom: 55px;
+  }
+
+  .fa {
+    font-size: 18px;
+    color: #c6cacc;
+    border: 1px solid #e8ecee;
+    margin-right: 5px;
+    border-radius: 2px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    transition: all .5s;
+  }
+
+  .fa:hover {
+    background-color: $red;
+    color: $white;
+  }
+}

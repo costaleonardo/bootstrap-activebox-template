@@ -1,0 +1,285 @@
+body {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400; }
+
+/* ---------- Typography ---------- */
+h4 {
+  font-size: 22px;
+  color: #2d3033;
+  font-weight: 400; }
+
+h5 {
+  font-size: 14px;
+  color: #2d3033;
+  text-transform: uppercase;
+  font-weight: 700; }
+
+p {
+  font-size: 14px;
+  line-height: 22.4px;
+  color: #6c7279; }
+
+/* ---------- Sections ---------- */
+.section {
+  padding: 70px 0 70px 0; }
+
+.section__title {
+  text-align: center;
+  margin-bottom: 4em; }
+  .section__title hr {
+    width: 25%;
+    background-color: #e84545;
+    height: 2px; }
+
+.section__image {
+  width: 100%; }
+
+@media (min-width: 768px) {
+  .section__title hr {
+    width: 10%; } }
+
+/* ---------- Buttons ---------- */
+.btn {
+  background-color: #e84545;
+  color: #fff;
+  border-color: #e84545;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 15px 40px;
+  font-size: 13px;
+  transition: all .5s; }
+
+.btn:focus {
+  outline: none; }
+
+.btn--download {
+  background-color: #292c47;
+  border: 1px solid #292c47; }
+
+.btn:hover {
+  background-color: #292c47 !important;
+  color: #e84545 !important; }
+
+/* ---------- About Section ---------- */
+/* The Modal (background) */
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 130px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: black;
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.9);
+  /* Black w/ opacity */ }
+
+/* Modal Content (Image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px; }
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px; }
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+  animation-name: zoom;
+  animation-duration: 0.6s; }
+
+@keyframes zoom {
+  from {
+    transform: scale(0); }
+  to {
+    transform: scale(1); } }
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 55px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s; }
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer; }
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px) {
+  .modal-content {
+    width: 100%; } }
+
+/* ---------- Navigation Section ---------- */
+.navbar {
+  background-color: #292c47 !important; }
+
+.navbar-brand:hover {
+  cursor: pointer; }
+
+.navbar-light .navbar-toggler {
+  background-color: #e84545;
+  border-color: #e84545; }
+
+.navbar-light .navbar-toggler:focus {
+  outline: none; }
+
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: #e84545; }
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+  transition: all .3s; }
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #e84545; }
+
+.navbar-light .navbar-nav .nav-link:focus {
+  color: #fff; }
+
+/* ---------- Header Section ---------- */
+.section--header {
+  background-image: url(../img/banner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  color: #fff; }
+  .section--header .container__content {
+    padding-top: 20%; }
+    .section--header .container__content h1 {
+      text-transform: uppercase;
+      font-size: 32px;
+      font-family: "Open Sans", sans-serif;
+      font-weight: 700;
+      margin-bottom: 15px; }
+    .section--header .container__content p {
+      font-size: 18px;
+      line-height: 1.5;
+      font-weight: 300;
+      margin-bottom: 40px; }
+
+/* ---------- About Section ---------- */
+.section--about .fa {
+  font-size: 60px;
+  color: #e84545;
+  margin-bottom: 20px; }
+
+.section--about h5 {
+  margin-bottom: 10px; }
+
+.section--about .section__item {
+  margin-bottom: 30px; }
+
+/* ---------- Download Section ---------- */
+.section--download {
+  background-color: #e84545;
+  color: #fff; }
+  .section--download p {
+    color: #fff; }
+
+/* ---------- Work Section ---------- */
+.section--work .section__image {
+  margin-bottom: 35px;
+  transition: all .5s; }
+
+.section--work .section__image:hover {
+  opacity: 0.6;
+  cursor: pointer; }
+
+/* ---------- Team Section ---------- */
+.section--team .section__image {
+  margin-bottom: 15px; }
+
+.section--team h5 {
+  color: #e84545;
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 20px; }
+
+.section--team p {
+  margin-bottom: 25px; }
+
+.section--team .section__item {
+  margin-bottom: 55px; }
+
+.section--team .fa {
+  font-size: 18px;
+  color: #c6cacc;
+  border: 1px solid #e8ecee;
+  margin-right: 5px;
+  border-radius: 2px;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  transition: all .5s; }
+
+.section--team .fa:hover {
+  background-color: #e84545;
+  color: #fff; }
+
+/* ---------- Contact Section ---------- */
+.section--contact {
+  background-color: #3a3e64;
+  color: #fff; }
+  .section--contact .section__item {
+    margin-bottom: 40px; }
+  .section--contact h5 {
+    color: #fff;
+    margin-bottom: 15px; }
+  .section--contact p {
+    color: rgba(255, 255, 255, 0.5); }
+  .section--contact .fa {
+    font-size: 18px;
+    color: #fff;
+    border: 1px solid #fff;
+    margin-right: 5px;
+    border-radius: 2px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    transition: all .3s; }
+  .section--contact .fa:hover {
+    background-color: #e84545;
+    border-color: #e84545;
+    color: #fff; }
+
+/* ---------- Footer Section ---------- */
+.footer {
+  background-color: #292c47;
+  padding: 25px; }
+  .footer .footer__text {
+    color: rgba(255, 255, 255, 0.5); }
+  .footer a {
+    transition: all .3s;
+    text-decoration: none; }
+  .footer a:hover {
+    color: #e84545; }

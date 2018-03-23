@@ -1,0 +1,12 @@
+/* ---------- Work Section ---------- */
+
+.section--work {
+  .section__image {
+    margin-bottom: 35px;
+    transition: all .5s;
+  }
+  .section__image:hover {
+    opacity: 0.6;
+    cursor: pointer;
+  }
+}
