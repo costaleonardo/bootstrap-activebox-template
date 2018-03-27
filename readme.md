@@ -8,4 +8,4 @@ Clone or download ZIP and open inex.html.
 
 ## License
 
-Designed by [TemplateWire](http://www.templatewire.com/) and coded by [Leonardo Da Costa](https://github.com/costaleonardo). Licensed under the [MIT License](https://cjpatoilo.mit-license.org).
+Designed by [Kamal Chaneman](http://www.kamalchaneman.com/) and coded by [Leonardo Da Costa](https://github.com/costaleonardo). Licensed under the [MIT License](https://cjpatoilo.mit-license.org).
