@@ -1,6 +1,6 @@
 <a align="center" href="https://costaleonardo.github.io/bootstrap-activebox-template/"><img width="100%" src="img/website.png" alt="Activebox Template"></a>
 
-> An HTML5 - CSS3 agency template.
+> A Bootstrap agency template.
 
 ## Getting Started
 
