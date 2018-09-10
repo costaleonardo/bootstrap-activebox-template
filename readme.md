@@ -13,7 +13,7 @@
 To begin using this template, choose one of the following options to get started:
 
 * Clone the repo: `git clone https://costaleonardo.github.io/bootstrap-activebox-template.git`
-* [Fork, Clone, or Download on GitHub](https://costaleonardo.github.io/bootstrap-activebox-template/)
+* [Fork, Clone, or Download on GitHub](https://github.com/costaleonardo/bootstrap-activebox-template)
 
 ## Bugs and Issues
 
